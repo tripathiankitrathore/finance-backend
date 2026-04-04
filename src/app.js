@@ -11,6 +11,6 @@ const userRoutes = require("./routes/userRoutes");
 
 app.use("/users", userRoutes);
 
-app.listen(3000, () => {
+app.listen(process.env.PORT || 3000, () => {
   console.log("Server start ho gaya");
 });
