@@ -30,5 +30,18 @@
 2. create .env file
 3. npm start
 
+Tech Stack:
+- Node.js
+- Express.js
+- MongoDB
+- JWT Authentication
+
+API Endpoints:
+- POST /users/signup
+- POST /users/login
+- POST /expenses
+- GET /expenses
+- DELETE /expenses/:id
+
 ## Postman Collection
 Included in repository
